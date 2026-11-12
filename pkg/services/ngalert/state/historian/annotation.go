@@ -29,7 +29,8 @@ import (
 )
 
 const (
-	annotationTagKeyColumnMaxLength   = 100
+	annotationTagKeyColumnMaxLength = 100
+	// Match the widened tag.value column so labels over 100 characters are retained.
 	annotationTagValueColumnMaxLength = 512
 )
 
